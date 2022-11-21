@@ -1,0 +1,256 @@
+.DashBody {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.DashContainer {
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin-top: 39px;
+  justify-content: space-between;
+}
+
+#root {
+  background-color: #fff;
+}
+
+.ListControl {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.filters h2 {
+  width: fit-content;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.filterList {
+  width: 75%;
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+
+.filterItem {
+  padding: 10px;
+
+  background-color: var(--color-Grey-2);
+
+  border: 1.4px solid var(--color-Grey-2);
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: var(--color-Grey-4);
+}
+
+.control {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.InsertSection {
+  width: 363px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.InsertForm {
+  width: 363px;
+  height: 351px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 20px;
+
+  border: 1px solid var(--color-Grey-2);
+  border-radius: 4px;
+}
+
+.InsertForm span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.InsertForm span > p {
+  margin-top: -10px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #868e96;
+}
+
+.InsertForm input {
+  width: 90%;
+  height: 52px;
+
+  gap: 10px;
+
+  background: #f8f9fa;
+
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+
+  padding: 0 16px;
+
+  outline: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.InsertForm input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #868e96;
+}
+
+.InsertForm div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.InsertForm div span {
+  width: 100%;
+  position: relative;
+}
+
+.InsertForm button {
+  width: 314px;
+  height: 48px;
+
+  background: var(--color-Primary);
+
+  border: 2px solid var(--color-Primary);
+
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.InsertForm button:hover {
+  background-color: var(--color-Primary-2);
+}
+
+#value {
+  width: 75%;
+}
+
+.TotalContainer {
+  width: 363px;
+  height: fit-content;
+
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  padding: 20px;
+}
+
+.TotalContainer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TotalContainer input {
+  outline: none;
+
+  border: none;
+
+  background: transparent;
+
+  text-align: end;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-Primary);
+}
+
+.dropDown {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropDown > input {
+  cursor: pointer;
+  outline: none;
+}
+
+.dropDown::after {
+  content: url("/src/assets/img/ANGLE-DOWN.svg");
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.InsertForm .Select {
+  height: 52px;
+
+  background: url("/src/assets/img/ANGLE-DOWN.svg") no-repeat right;
+  background-color: #f8f9fa;
+
+  border: 1.5px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.InsertForm .Select select {
+  width: 100%;
+  height: 100%;
+
+  padding: 0 16px;
+
+  outline: none;
+
+  border: none;
+
+  background: transparent;
+
+  -webkit-appearance: none;
+
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--color-Primary);
+  color: var(--color-Grey-1);
+}
