@@ -1,4 +1,5 @@
 import "./style.css";
+import img from "/src/assets/img/NuKenzie-White.svg";
 
 export const Section1 = ({ setPage }) => {
   return (

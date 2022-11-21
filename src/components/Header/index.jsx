@@ -1,4 +1,5 @@
 import "./style.css";
+import img from "/src/assets/img/NuKenzie-Black.svg";
 
 export const Header = ({ setPage }) => {
   return (

@@ -1,4 +1,5 @@
 import style from "./style.css";
+import img from "/src/assets/Group262.svg";
 
 export const Section2 = () => {
   return (
