@@ -4,7 +4,7 @@ import img from "/src/assets/img/NuKenzie-White.svg";
 export const Section1 = ({ setPage }) => {
   return (
     <section className="section1">
-      <img src="/src/assets/img/NuKenzie-White.svg" alt="NuKenzie" />
+      <img src={img} alt="NuKenzie" />
       <h2>Centralize o controle das suas finanças</h2>
       <p>de forma rápida e segura</p>
       <button

@@ -5,7 +5,7 @@ export const Header = ({ setPage }) => {
   return (
     <header className="Header">
       <div className="container">
-        <img src="/src/assets/img/NuKenzie-Black.svg" alt="NuKenzie" />
+        <img src={img} alt="NuKenzie" />
         <button
           type="button"
           onClick={() => {
