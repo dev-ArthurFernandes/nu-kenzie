@@ -3,9 +3,9 @@ import uuid from "react-uuid";
 import { Header } from "../Header";
 import { useState } from "react";
 import { Card } from "../Card";
-import { TransitionForm } from "./transitionForm";
 import { ValueTotal } from "../valueTotal";
-import { Filter } from "../Filter/index";
+import { Filter } from "../Filter";
+import { TransitionForm } from "../TransitionForm";
 
 export const DashBord = ({ setPage }) => {
   let empty = true;
