@@ -2,10 +2,10 @@ import "./style.css";
 import uuid from "react-uuid";
 import { Header } from "../Header";
 import { useState } from "react";
-import { Card } from "../Card/index.jsx";
-import { TransitionForm } from "./../transitionForm/index.jsx";
+import { Card } from "../Card";
+import { TransitionForm } from "../transitionForm";
 import { ValueTotal } from "../valueTotal";
-import { Filter } from "./../Filter/index";
+import { Filter } from "../Filter/index";
 
 export const DashBord = ({ setPage }) => {
   let empty = true;
