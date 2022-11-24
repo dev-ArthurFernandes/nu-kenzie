@@ -3,9 +3,9 @@ import { Home } from "./components/Home";
 import { DashBord } from "./components/DashBord/index.jsx";
 
 function App() {
-  let [page, setPage] = useState("home");
+  const currentPage = localStorage.getItem("@NuKenzie:Page") || "home";
 
-  page = localStorage.getItem("@NuKenzie:Page") || page;
+  const [page, setPage] = useState(currentPage);
 
   if (page === "home") {
     return <Home setPage={setPage} />;

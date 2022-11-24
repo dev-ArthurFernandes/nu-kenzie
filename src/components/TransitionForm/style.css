@@ -1,0 +1,104 @@
+.transitionsForm {
+  min-width: 320px;
+  width: 100%;
+  max-width: 400px;
+
+  background: #ffffff;
+
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 19px;
+
+  box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.5);
+}
+
+.transitionsForm input,
+select {
+  height: 52px;
+
+  padding: 0px 16px;
+
+  border: 2px solid var(--color-Grey-1);
+  border-radius: 8px;
+
+  background-color: var(--color-Grey-1);
+
+  outline: none;
+}
+
+.transitionsForm #description {
+  width: 100%;
+  flex-direction: column;
+}
+
+.transitionsForm #description label {
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 22px;
+
+  margin-bottom: 12px;
+}
+
+.transitionsForm #description input {
+  width: 90%;
+  margin: 5px 0;
+}
+
+.transitionsForm #description p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: var(--color-Grey-3);
+}
+
+.transitionsForm #values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transitionsForm #values span {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.transitionsForm #values #spanType::before {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+
+  content: url("/src/assets/img/ANGLE-DOWN.svg");
+
+  cursor: pointer;
+}
+
+.transitionsForm #values select {
+  -webkit-appearance: none;
+
+  cursor: pointer;
+}
+
+.transitionsForm button {
+  width: 100%;
+  height: 48px;
+
+  border: 1px solid var(--color-Primary);
+
+  background-color: var(--color-Primary);
+
+  color: var(--color-Grey-1);
+
+  cursor: pointer;
+}
+
+.transitionsForm button:hover {
+  background-color: var(--color-Primary-2);
+}

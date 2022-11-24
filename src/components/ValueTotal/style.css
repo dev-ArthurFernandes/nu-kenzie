@@ -1,0 +1,44 @@
+.total {
+  min-width: 320px;
+  width: 100%;
+  max-width: 400px;
+  height: 96px;
+
+  padding: 20px 24px;
+
+  border: 1px solid var(--color-Grey-2);
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.total span {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span > h2 {
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 30px;
+}
+
+.total span > p {
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 30px;
+
+  color: var(--color-Primary);
+}
+
+.total > p {
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 22px;
+
+  color: var(--color-Grey-3);
+}

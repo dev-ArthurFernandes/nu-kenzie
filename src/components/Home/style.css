@@ -1,15 +1,17 @@
 .container {
-  width: 60%;
+  width: 100%;
   height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section1 {
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
 .section1 > img {
@@ -22,7 +24,7 @@
   font-weight: 800;
   font-size: 38px;
   line-height: 48px;
-  text-align: start;
+  text-align: center;
   color: var(--color-Grey-1);
 }
 
@@ -48,14 +50,25 @@
 }
 
 .section2 {
-  width: 50%;
-  display: flex;
+  display: none;
 }
 
-.section2 > img {
-  width: 700px;
-}
+@media (min-width: 900px) {
+  .section1 {
+    width: 50%;
+    align-items: flex-start;
+  }
 
-#root {
-  background-color: var(--color-Grey-4);
+  .section1 > h2 {
+    text-align: start;
+  }
+
+  .section2 {
+    width: 50%;
+    display: flex;
+  }
+
+  .section2 > img {
+    width: 700px;
+  }
 }
