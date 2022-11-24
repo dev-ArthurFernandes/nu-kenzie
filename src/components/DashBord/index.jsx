@@ -3,7 +3,7 @@ import uuid from "react-uuid";
 import { Header } from "../Header";
 import { useState } from "react";
 import { Card } from "../Card";
-import { ValueTotal } from "../valueTotal";
+import { ValueTotal } from "../ValueTotal";
 import { Filter } from "../Filter";
 import { TransitionForm } from "../TransitionForm";
 
